@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 5</title>
+    <link rel="stylesheet" href="./s.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+ 
+</head> 
+  <body>
+    <header>
+      <h1 class="caida">Bienvenido a la Clase 7</h1>
+      
+    </header>
+    <nav>
+      <a href="index.html">Inicio</a
+      ><!--index-->
+      <a href="index.html">Contactanos</a
+      ><!--index2-->
+      <a href="index.html">Colonias</a
+      ><!--index3-->
+      <a href="index.html">Tripulacion</a
+      ><!--index3-->
+      <a href="#form">Formulario</a
+      ><!--index4-->
+      <a href="#footer">Pie de Pagina</a
+      ><!--index4-->
+    </nav>
+    <main class="main-content">
+      <section class="padre">
+        <section class="auxiliar">
+          <section class="hijo1">
+            <h2>    <div class="contenedor">
+      <div class="item">
+        <img src="WhatsApp Image 2025-07-29 at 20.56.58.jpeg"alt="avatar"> 
+        <div class="container">
+          <h4><b>Ruth Zavaleta</b></h4> 
+          <hr>
+          <p>Mama      Abogada     48
+          </p>  
+        </div>
+      </div>
+       <div class="item">
+        <img src="WhatsApp Image 2025-07-29 at 20.57.27 (1).jpeg" alt="avatar"> 
+        <div class="container">
+          <h4><b>Nelson       Salas Delgado</b> <br></h4> 
+          <hr>
+          <p>Papa     Doctor (Cirujano)      60 </p>  
+        
+        </div>
+       </div> 
+      <div class="item">
+        <img src="WhatsApp Image 2025-07-29 at 20.58.02.jpeg" alt="avatar"> 
+        <div class="container">
+          <h4><b>Sebastian Salas</b></h4> 
+          <hr>
+          <p>Hermano        Abogado         24</p>  
+        </div>
+       </div>
+       <div class="item">
+        <img src="WhatsApp Image 2025-07-29 at 20.58.03.jpeg" alt="avatar"> 
+        <div class="container">
+          <h4><b>Matt Salas </b></h4> 
+          <hr>
+          <p>Perrito          7   </p>  
+        </div>
+       </div>
+        <div class="item">
+        <img src="WhatsApp Image 2025-07-29 at 21.04.54.jpeg" alt="avatar"> 
+        <div class="container">
+          <h4><b>Anita</b></h4> 
+          <hr>
+          <p>Abuela        Jefa de gabinete       68</p>  
+        </div>
+       </div>
+        <div class="item">
+        <img src="WhatsApp Image 2025-07-29 at 20.57.06.jpeg" alt="avatar"> 
+        <div class="container">
+          <h4><b>Jojo</b></h4> 
+          <hr>
+          <p>Abuelo       Empresario         78</p>  
+        </div>
+       </div>
+    </div>
+  </h2>
+          </section>
+
+          <section class="hijo2">
+            <article>
+              <h3>FASE 1: Construir</h3>
+              <p>
+                En esta fase ya, podemos decir que se utilziar las direfentes
+                etiquetas que existen
+              </p>
+            </article>
+
+            <article>
+              <h3>FASE 2: Evolucionar</h3>
+              <p>
+                En esta fase podemos evolucionar las paginas web para notar que
+                los estilos le dan vida a toda pagina web
+              </p>
+            </article>
+
+            <article>
+              <h3>FASE 3: Expansion</h3>
+              <p>
+                En esta fase ya tengo listo la pagina para mostrar al publico
+              </p>
+            </article>
+          </section>
+        </section>
+
+        <aside class="hijo3">
+          <h3>Dato Curioso</h3>
+          <p>
+            Sabian que el pato es el unico animal que puede caminar nadar y
+            volar.
+          </p>
+          <center>
+          <iframe src="https://www.youtube.com/embed/uD4izuDMUQA" 
+                  title="YouTube video player"
+                    style="border: none;" 
+                  width="150px"
+                  height="150px"
+                  load="lazy"
+                  allowfullscreen=""></iframe>
+                  </center>
+           <div class="container">
+      <h2>Formulario de Registro</h2>
+      <p>Por favor, complete el siguiente formulario para registrarse.</p>
+      <form id="form">
+        <div>
+        <label>Nombre:</label
+        ><!-- etiqueta-->
+        <br>
+        <input type="text" placeholder="ingrese nombre" required/><!-- entrada-->
+        <br /><br />
+        </div>
+        <div>
+        <label placeholder="edad numerica" required>Edad:</label>
+        <br>
+        <input type="number" min="18" max="70"/>
+        <br /><br />
+</div>
+<div>
+        <label>Tipo de Mision:</label><br>
+        <br>
+          <label for="estandar">Exploración</label><br />
+    <input type="radio" id="suite" name="habitacion" value="suite" />
+    <label for="suite">Colonización</label><br />
+    <input type="radio" id="familiar" name="habitacion" value="familiar" />
+        <br />
+        <br />
+        </div>
+        <div>
+        <label placeholder="ejemplogmail.com" required>Correo:</label><br>
+        <input type="email" />
+        <br /><br />
+        </div>
+        <div>
+        <label>Elige tu Colonización:</label>
+        <select>
+          <option>Marte</option>
+          <option>Venus</option>
+          <option>Saturno</option>
+        </select>
+        <br /><br />
+        </div>
+        
+        <button type="submit" >Enviar</button>
+      </form>
+    </div>
+        </aside>
+      </section>
+      <section class="contacto">
+        <h2>Contactanos</h2>
+        <p>
+          para mas informacion llamar a <strong>789456123</strong> o enviar
+          correo a : <span>juezpatito@patito.com</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <h2 id="footer">Pie de Pagina</h2>
+      <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+  </body>
+</html>
